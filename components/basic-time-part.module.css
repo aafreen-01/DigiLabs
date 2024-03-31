@@ -1,0 +1,198 @@
+.time {
+  letter-spacing: -0.32px;
+  display: inline-block;
+  min-width: 29px;
+  white-space: nowrap;
+}
+.sbIconGeo,
+.time {
+  flex: 1;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+}
+.mastersStatusBarPartsA {
+  width: 16px;
+  text-align: center;
+  font-size: var(--font-size-2xs);
+}
+.mastersStatusBarPartsA,
+.mastersStatusBarPartsL,
+.timeGeo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.timeGeo {
+  flex: 1;
+  gap: var(--gap-11xs);
+}
+.mastersStatusBarPartsL {
+  width: 96px;
+  backdrop-filter: blur(56px);
+  padding: var(--padding-sm) var(--padding-lgi-5) var(--padding-4xs)
+    var(--padding-10xl-5);
+  box-sizing: border-box;
+}
+.mastersStatusBarPartsA1,
+.mastersStatusBarPartsA2 {
+  height: 16px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.mastersStatusBarPartsA2 {
+  width: 16px;
+}
+.level2Icon,
+.level3Icon,
+.level4Icon,
+.level5Icon,
+.level6Icon,
+.level7Icon,
+.levelStartIcon {
+  height: 8.5px;
+  width: 2px;
+  position: relative;
+  min-height: 9px;
+}
+.level8Icon,
+.level9Icon {
+  display: none;
+}
+.level8Icon,
+.level9Icon,
+.levelLastIcon {
+  height: 8.5px;
+  width: 2px;
+  position: relative;
+  min-height: 9px;
+}
+.batteryLevels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.levels,
+.vectorIcon {
+  position: absolute;
+  top: 4.5px;
+  left: 2px;
+  width: 16px;
+  height: 8.5px;
+}
+.vectorIcon {
+  top: 2.5px;
+  left: 0;
+  width: 26.5px;
+  height: 12.5px;
+  z-index: 1;
+}
+.mastersStatusBarPartsA3 {
+  height: 16px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.indicators {
+  height: 16px;
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.indicators,
+.mastersStatusBar,
+.mastersStatusBarPartsR,
+.statusBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mastersStatusBarPartsR {
+  width: 96px;
+  backdrop-filter: blur(56px);
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+}
+.mastersStatusBar,
+.statusBar {
+  max-width: 100%;
+}
+.mastersStatusBar {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.statusBar {
+  align-self: stretch;
+  justify-content: flex-start;
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-sf-pro-text);
+}
+.loremIpsum {
+  width: 204px;
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+  display: inline-block;
+  white-space: nowrap;
+}
+.loremIpsumWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-41xl) 0 var(--padding-41xl-5);
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  color: var(--color-gray);
+  white-space: nowrap;
+}
+.basicTimePart,
+.basicTimePartInner,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.basicTimePart,
+.basicTimePartInner {
+  align-self: stretch;
+}
+.basicTimePartInner {
+  flex-direction: row;
+  padding: 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.basicTimePart {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+  text-align: center;
+  font-size: var(--font-size-10xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

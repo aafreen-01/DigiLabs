@@ -1,0 +1,89 @@
+.errorMsgillustrationIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344px;
+  height: 344px;
+}
+.rinotification2LineIcon {
+  position: absolute;
+  top: 140px;
+  left: 140px;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  z-index: 1;
+}
+.errorMsgillustrationParent {
+  height: 344px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.screen1Inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 15px var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sendNotification {
+  width: 144px;
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+}
+.section2ctaButton,
+.section2ctaButtonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.section2ctaButton {
+  cursor: pointer;
+  border: 1.4px solid transparent;
+  padding: 13px 20px;
+  background-color: transparent;
+  height: 44.8px;
+  flex: 1;
+  border-radius: 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(157, 13, 61, 0) 2.62%,
+    #df522b 50.55%,
+    rgba(199, 125, 44, 0)
+  );
+  box-shadow: var(--shadow-1);
+  justify-content: center;
+  white-space: nowrap;
+}
+.section2ctaButtonWrapper {
+  align-self: stretch;
+  height: 42px;
+  justify-content: flex-end;
+  padding: 0 24px 0 21px;
+}
+.screen1 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 69px;
+  box-sizing: border-box;
+  gap: 100px;
+  letter-spacing: normal;
+}

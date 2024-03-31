@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-sf-pro-text: "SF Pro Text";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-lgi: 19px;
+  --font-size-10xl: 29px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: rgba(255, 255, 255, 0.6);
+
+  /* Gaps */
+  --gap-15xl: 34px;
+  --gap-base: 16px;
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-6xl: 25px;
+  --padding-41xl: 60px;
+  --padding-41xl-5: 60.5px;
+  --padding-xs: 12px;
+  --padding-sm: 14px;
+  --padding-lgi-5: 19.5px;
+  --padding-4xs: 9px;
+  --padding-10xl-5: 29.5px;
+
+  /* Effects */
+  --shadow-1: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
